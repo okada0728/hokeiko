@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 gem 'rails_admin'
 gem 'devise'
 gem 'cancan'
+gem 'rails_12factor'
