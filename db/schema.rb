@@ -11,7 +11,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141221103708) do
+ActiveRecord::Schema.define(version: 20141227092219) do
+
+  create_table "articles", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "title"
+    t.text     "description"
+    t.text     "text2"
+    t.text     "text3"
+    t.text     "text4"
+    t.text     "text5"
+    t.text     "text6"
+    t.text     "text7"
+    t.text     "text8"
+    t.text     "text9"
+    t.string   "headline1"
+    t.string   "headline2"
+    t.string   "headline3"
+    t.string   "headline4"
+    t.string   "headline5"
+    t.string   "headline6"
+    t.string   "headline7"
+    t.string   "headline8"
+    t.string   "img1"
+    t.string   "img2"
+    t.string   "img3"
+    t.string   "img4"
+    t.string   "img5"
+    t.string   "img6"
+    t.string   "img7"
+    t.string   "img8"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
